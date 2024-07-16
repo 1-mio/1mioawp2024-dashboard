@@ -1,0 +1,81 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0794ff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#graficoGeral {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.results {
+    text-align: left
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grafico-item {
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grafico-item p {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    max-width: 280px;
+}
+
+.grafico-item canvas {
+    margin: 10px auto;
+}
+
+.jovens-info {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+}
